@@ -1,0 +1,44 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AdvertismentsPresenter"
+provides-nominal:
+- "13Advertisments0A9PresenterC"
+provides-member:
+- ["13Advertisments0A9PresenterC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AdvertismentsInteractorInput"
+- "AdvertismentsPresenter"
+- "AdvertismentsPresenterInput"
+- "AssignmentPrecedence"
+depends-member:
+- ["13Advertisments0A9PresenterC", "AdvertismentsInteractorInput"]
+- ["13Advertisments0A9PresenterC", "T"]
+- ["13Advertisments0A9PresenterC", "ads"]
+- ["13Advertisments0A9PresenterC", "deinit"]
+- ["13Advertisments0A9PresenterC", "init"]
+- ["13Advertisments0A9PresenterC", "interactor"]
+- ["13Advertisments0A9PresenterC", "loadNewAdvertisments"]
+- ["13Advertisments0A14PresenterInputP", "ads"]
+- !private ["13Advertisments0A14PresenterInputP", "interactor"]
+- ["13Advertisments0A14PresenterInputP", "loadNewAdvertisments"]
+- ["13Advertisments0A14PresenterInputP", ""]
+depends-nominal:
+- "13Advertisments0A9PresenterC"
+- "13Advertisments0A14PresenterInputP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "c11261caa35f2d2b6a4a805f18b702db"

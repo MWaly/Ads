@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "f1eea29f1eff8d2b3bb0b8cac98ee796"
+build_time: [1517438391, 570471000]
+inputs:
+  "/Users/mwaly/Desktop/Advertisments/Advertisments/Advertisments /Presenter/AdvertismentsPresenter.swift": [1517438356, 0]
+  "/Users/mwaly/Desktop/Advertisments/Advertisments/Advertisments /Router/AdvertismentsRouter.swift": [1517438253, 0]
+  "/Users/mwaly/Desktop/Advertisments/Advertisments/Advertisments /View/AdvertismentsViewController.swift": [1517382354, 0]
+  "/Users/mwaly/Desktop/Advertisments/Advertisments/Advertisments /Interactor/AdvertismentsInteractor.swift": [1517430006, 0]
+  "/Users/mwaly/Desktop/Advertisments/Advertisments/AppDelegate.swift": [1517382332, 0]
+  "/Users/mwaly/Desktop/Advertisments/Advertisments/Advertisments /AdvertisementsInterfaces.swift": [1517438391, 0]
+  "/Users/mwaly/Desktop/Advertisments/Advertisments/Common/FlowManager.swift": [1517382346, 0]
+  "/Users/mwaly/Desktop/Advertisments/Advertisments/Advertisments /Entity/Models/Advertisement.swift": [1517382354, 0]
