@@ -2,49 +2,51 @@
 //  AdvertisementsInterfaces.swift
 //  Advertisments
 //
-//  Created by Mohamed Waly on 31.01.18.
 //  Copyright © 2018 Mohamed Waly. All rights reserved.
-//  Code Not Allowed To be Copied or Redistrubted Without permission for commerical use
+//
+//  VIPER Model Protocols Definitions
 
 import Foundation
 
-protocol AdvertismentsPresenterInput {
+//MARK: Presenter Protocols
 
-    var ads: [Any] { get }
+protocol AdvertismentsPresenterInput: class {
+    var output: AdvertismentsPresenterOutput? { get set }
     func loadNewAdvertisments()
-
 }
-protocol AdvertismentsPresenterOutput {
 
-    associatedtype T
+protocol AdvertismentsPresenterOutput: class  {
     var numberOfAds: Int { get }
-
-    func addAds(newAds: [T])
+    var ads: [Advertisment] { get set }
+    func reload()
     func presentError(error: Error)
+    //TODO: enhancemnt to have a call back from reload confirming operation is finished
     func startLoadingIndicator()
     func stopLoadingIndicator()
+}
+
+extension AdvertismentsPresenterOutput {
+
+    var numberOfAds: Int { return ads.count }
 
 }
-protocol AdvertismentsInteractorInput {
 
-    var currentPage: Int { get }
+//MARK: interactor Protocols
 
-    func loadAdvertisments(starting page: Int)
-
+protocol AdvertismentsInteractorInput: class {
+    var output: AdvertismentsInteractorOutput? { get set }
+    func loadAdvertisments()
 }
-protocol AdvertismentsInteractorOutput {
 
-
+protocol AdvertismentsInteractorOutput: class  {
     var numberOfAds: Int { get }
-    func adsDidLoad(newAds: [Any])
+    func adsDidLoad(newAds: [Advertisment])
     func errorOccured(error: Error)
-
 }
 
+//MARK: Data Manager
 
-protocol AdvertismentsDataStore {
-
-    func getAds(starting page: Int,  result: @autoclosure () -> Void)
-
+protocol AdvertismentsDataStore: class {
+    func getAds(result: @escaping (Result<AdsResponseDTO>) -> Void)
 }
 

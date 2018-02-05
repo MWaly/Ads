@@ -4,6 +4,14 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AdvertisementResponse.json</key>
+		<data>
+		rFCVd/LwYiopyaeHGvhUySt8Hgw=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		jv+s8Gp9aceFiYsJ4X2ndUuyKwo=
+		</data>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
 		U7vCU+FGaFpWMe3nP4L1T1eaCgY=
@@ -58,11 +66,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		icXfgz4ZxcnhR7mvSacVcyO7Cjg=
+		P2SYN8H1sqjSCXI8rVU5QICGG64=
 		</data>
 		<key>Launch Screen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		MlnTwyMZH7nIJtdo3yK4hApi4f4=
+		ckHT7B4PQV2nEEbOBbcEOpSR2yc=
 		</data>
 		<key>Launch Screen.storyboardc/Info.plist</key>
 		<data>
@@ -70,11 +78,19 @@
 		</data>
 		<key>Launch Screen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		2vQMCRpzGs7+KKfeDD1MIzecIMw=
+		w83wj0vvzEErrQVeW5xnoRHhto4=
+		</data>
+		<key>Main.storyboardc/AdvertismentsViewController.nib</key>
+		<data>
+		Jh4LC9DHNbgX4jY/AHQrhCrzBpI=
+		</data>
+		<key>Main.storyboardc/EwL-on-V4Z-view-kby-pv-xxm.nib</key>
+		<data>
+		WwPeyOBakMZ0xOulST3mjFbt1Vs=
 		</data>
 		<key>Main.storyboardc/Info.plist</key>
 		<data>
-		GnMdGFfDuvwAuWJN7FS9ELLozY4=
+		sZxThif6yykxSt6AeCHuPuIquKg=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -87,6 +103,28 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AdvertisementResponse.json</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			rFCVd/LwYiopyaeHGvhUySt8Hgw=
+			</data>
+			<key>hash2</key>
+			<data>
+			y5wBedxZfjmxmK4oPXRmZ7agEasbpwSxQl5HPCqQkb8=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jv+s8Gp9aceFiYsJ4X2ndUuyKwo=
+			</data>
+			<key>hash2</key>
+			<data>
+			Wzxhd1HkWYSWjG1n2bLX7NpsaDTSZXJlllyi7lbPuOc=
+			</data>
+		</dict>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<dict>
 			<key>hash</key>
@@ -234,11 +272,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MlnTwyMZH7nIJtdo3yK4hApi4f4=
+			ckHT7B4PQV2nEEbOBbcEOpSR2yc=
 			</data>
 			<key>hash2</key>
 			<data>
-			eeLSci6dCQGvzkxfcxtiW/1lJQmo3Rkwa0GL0MwWhSo=
+			kTqDmnokSHBbk8a5eCKd+PTxzSp6Zppl30vexI8nhKM=
 			</data>
 		</dict>
 		<key>Launch Screen.storyboardc/Info.plist</key>
@@ -256,22 +294,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2vQMCRpzGs7+KKfeDD1MIzecIMw=
+			w83wj0vvzEErrQVeW5xnoRHhto4=
 			</data>
 			<key>hash2</key>
 			<data>
-			zmbRP/qoL3lEQl6T8Y94yepdsDYCACamZxKuSM13iu4=
+			6bHDt8LrnC59oZO74bzBx+LG4k+L32t20IXy8FzJOPw=
+			</data>
+		</dict>
+		<key>Main.storyboardc/AdvertismentsViewController.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Jh4LC9DHNbgX4jY/AHQrhCrzBpI=
+			</data>
+			<key>hash2</key>
+			<data>
+			d5uSdkCYhkMTe7tdtSXQYKFA27liioJ+c/Tb4enTyEs=
+			</data>
+		</dict>
+		<key>Main.storyboardc/EwL-on-V4Z-view-kby-pv-xxm.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WwPeyOBakMZ0xOulST3mjFbt1Vs=
+			</data>
+			<key>hash2</key>
+			<data>
+			sw04NlYphgWl0ITgbJ7bjSOUH8YSnwosck+JSv1LyUQ=
 			</data>
 		</dict>
 		<key>Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GnMdGFfDuvwAuWJN7FS9ELLozY4=
+			sZxThif6yykxSt6AeCHuPuIquKg=
 			</data>
 			<key>hash2</key>
 			<data>
-			9gq+m2SfIqZdO4RnP+Q5bwx0h1nftPpvwkJZZ8jBiZE=
+			1vpyO9qdCJWXx6ShaqBewZ/PUkskZtAeRF+WMKGse9w=
 			</data>
 		</dict>
 		<key>libswiftRemoteMirror.dylib</key>

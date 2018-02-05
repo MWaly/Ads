@@ -5,25 +5,170 @@ provides-nominal:
 - "13Advertisments0A10InteractorC"
 provides-member:
 - ["13Advertisments0A10InteractorC", ""]
+- ["13Advertisments0A10InteractorC", "resolveAds"]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "!"
+- !private "AdsResponseDTO"
+- "Advertisment"
+- "AdvertismentDTO"
+- "AdvertismentsDataManager"
+- "AdvertismentsDataStore"
 - "AdvertismentsInteractor"
 - "AdvertismentsInteractorInput"
-- "FloatLiteralType"
-- "Int"
-- "IntegerLiteralType"
+- "AdvertismentsInteractorOutput"
+- !private "AssignmentPrecedence"
+- "BooleanLiteralType"
+- !private "FloatLiteralType"
+- !private "Int"
+- !private "IntegerLiteralType"
+- !private "Photo"
+- !private "PhotoDTO"
+- !private "Result"
+- "String"
+- !private "Void"
 depends-member:
-- ["13Advertisments0A10InteractorC", "Int"]
-- ["13Advertisments0A10InteractorC", "currentPage"]
+- !private ["13Advertisments14AdsResponseDTOV", "ads"]
+- !private ["13Advertisments12AdvertismentV", "init"]
+- !private ["13Advertisments15AdvertismentDTOV", "id"]
+- !private ["13Advertisments15AdvertismentDTOV", "photo"]
+- !private ["13Advertisments15AdvertismentDTOV", "title"]
+- ["13Advertisments0A11DataManagerC", "deinit"]
+- ["13Advertisments0A11DataManagerC", "init"]
+- !private ["13Advertisments0A9DataStoreP", "getAds"]
+- ["13Advertisments0A9DataStoreP", "init"]
+- !private ["13Advertisments0A10InteractorC", "AdsResponseDTO"]
+- ["13Advertisments0A10InteractorC", "Advertisment"]
+- ["13Advertisments0A10InteractorC", "AdvertismentDTO"]
+- ["13Advertisments0A10InteractorC", "AdvertismentsDataManager"]
+- ["13Advertisments0A10InteractorC", "AdvertismentsDataStore"]
+- ["13Advertisments0A10InteractorC", "AdvertismentsInteractorOutput"]
+- !private ["13Advertisments0A10InteractorC", "Int"]
+- !private ["13Advertisments0A10InteractorC", "Photo"]
+- !private ["13Advertisments0A10InteractorC", "PhotoDTO"]
+- !private ["13Advertisments0A10InteractorC", "Result"]
+- ["13Advertisments0A10InteractorC", "String"]
+- !private ["13Advertisments0A10InteractorC", "Void"]
+- ["13Advertisments0A10InteractorC", "dataManager"]
 - ["13Advertisments0A10InteractorC", "deinit"]
+- !private ["13Advertisments0A10InteractorC", "extractPhoto"]
+- !private ["13Advertisments0A10InteractorC", "handleResponse"]
 - ["13Advertisments0A10InteractorC", "init"]
+- ["13Advertisments0A10InteractorC", "isLoading"]
 - ["13Advertisments0A10InteractorC", "loadAdvertisments"]
-- ["13Advertisments0A15InteractorInputP", "currentPage"]
+- ["13Advertisments0A10InteractorC", "nextURL"]
+- ["13Advertisments0A10InteractorC", "output"]
+- ["13Advertisments0A10InteractorC", "resolveAds"]
+- !private ["13Advertisments0A15InteractorInputP", "Advertisment"]
+- ["13Advertisments0A15InteractorInputP", "AdvertismentsDataManager"]
+- !private ["13Advertisments0A15InteractorInputP", "Photo"]
+- !private ["13Advertisments0A15InteractorInputP", "dataManager"]
+- !private ["13Advertisments0A15InteractorInputP", "extractPhoto"]
+- !private ["13Advertisments0A15InteractorInputP", "handleResponse"]
+- !private ["13Advertisments0A15InteractorInputP", "isLoading"]
 - ["13Advertisments0A15InteractorInputP", "loadAdvertisments"]
+- ["13Advertisments0A15InteractorInputP", "output"]
+- !private ["13Advertisments0A15InteractorInputP", "resolveAds"]
 - ["13Advertisments0A15InteractorInputP", ""]
+- !private ["13Advertisments0A16InteractorOutputP", "adsDidLoad"]
+- !private ["13Advertisments0A16InteractorOutputP", "errorOccured"]
+- !private ["Sa", "flatMap"]
+- !private ["s23BidirectionalCollectionP", "flatMap"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "flatMap"]
+- !private ["s10CollectionP", "flatMap"]
+- !private ["s28CustomDebugStringConvertibleP", "flatMap"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "flatMap"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "flatMap"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "ads"]
+- !private ["s9DecodableP", "flatMap"]
+- !private ["s9DecodableP", "height"]
+- !private ["s9DecodableP", "id"]
+- !private ["s9DecodableP", "link"]
+- !private ["s9DecodableP", "photo"]
+- !private ["s9DecodableP", "title"]
+- !private ["s9DecodableP", "width"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "ads"]
+- !private ["s9EncodableP", "flatMap"]
+- !private ["s9EncodableP", "height"]
+- !private ["s9EncodableP", "id"]
+- !private ["s9EncodableP", "link"]
+- !private ["s9EncodableP", "photo"]
+- !private ["s9EncodableP", "title"]
+- !private ["s9EncodableP", "width"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "flatMap"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s17MutableCollectionP", "flatMap"]
+- !private ["13Advertisments5PhotoV", "init"]
+- !private ["13Advertisments8PhotoDTOV", "height"]
+- !private ["13Advertisments8PhotoDTOV", "link"]
+- !private ["13Advertisments8PhotoDTOV", "width"]
+- !private ["s22RandomAccessCollectionP", "flatMap"]
+- !private ["s26RangeReplaceableCollectionP", "flatMap"]
+- !private ["13Advertisments6ResultO", "failure"]
+- !private ["13Advertisments6ResultO", "success"]
+- !private ["s8SequenceP", "flatMap"]
+- !private ["s14_ArrayProtocolP", "flatMap"]
+- !private ["s23_BidirectionalIndexableP", "flatMap"]
+- !private ["s24_DestructorSafeContainerP", "flatMap"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s10_IndexableP", "flatMap"]
+- !private ["s14_IndexableBaseP", "flatMap"]
+- !private ["s17_MutableIndexableP", "flatMap"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "flatMap"]
+- !private ["s22_RandomAccessIndexableP", "flatMap"]
+- !private ["s26_RangeReplaceableIndexableP", "flatMap"]
 depends-nominal:
+- !private "13Advertisments14AdsResponseDTOV"
+- !private "13Advertisments12AdvertismentV"
+- !private "13Advertisments15AdvertismentDTOV"
+- "13Advertisments0A11DataManagerC"
+- "13Advertisments0A9DataStoreP"
 - "13Advertisments0A10InteractorC"
 - "13Advertisments0A15InteractorInputP"
+- !private "13Advertisments0A16InteractorOutputP"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s8HashableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s17MutableCollectionP"
+- !private "13Advertisments5PhotoV"
+- !private "13Advertisments8PhotoDTOV"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "13Advertisments6ResultO"
+- !private "s8SequenceP"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -39,4 +184,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "c5ab42f4789aa2204c98abb1d697f2b5"
+interface-hash: "204a724e362138abb803c6a82751851f"

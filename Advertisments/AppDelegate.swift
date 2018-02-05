@@ -2,9 +2,9 @@
 //  AppDelegate.swift
 //  Advertisments
 //
-//  Created by Mohamed Waly on 31.01.18.
 //  Copyright © 2018 Mohamed Waly. All rights reserved.
 //
+// CODE NOT LICENSED FOR REDISTRUBTION WITHOUT PERMISSION
 
 import UIKit
 
@@ -15,7 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        let router = AdvertismentsWireframe()
+        
+        self.window?.rootViewController = router.controller
+        self.window?.makeKeyAndVisible()
+
         return true
     }
 

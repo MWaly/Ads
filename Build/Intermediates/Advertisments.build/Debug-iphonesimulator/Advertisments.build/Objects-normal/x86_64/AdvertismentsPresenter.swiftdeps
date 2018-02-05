@@ -7,25 +7,142 @@ provides-member:
 - ["13Advertisments0A9PresenterC", ""]
 provides-dynamic-lookup:
 depends-top-level:
+- !private "+="
+- "Advertisment"
 - "AdvertismentsInteractorInput"
+- "AdvertismentsInteractorOutput"
 - "AdvertismentsPresenter"
 - "AdvertismentsPresenterInput"
+- "AdvertismentsPresenterOutput"
 - "AssignmentPrecedence"
+- !private "DispatchQueue"
+- "Error"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
 depends-member:
+- !private ["13Advertisments0A15InteractorInputP", "loadAdvertisments"]
+- !private ["13Advertisments0A15InteractorInputP", "output"]
+- !private ["13Advertisments0A16InteractorOutputP", "DispatchQueue"]
+- !private ["13Advertisments0A16InteractorOutputP", "ads"]
+- ["13Advertisments0A16InteractorOutputP", "adsDidLoad"]
+- ["13Advertisments0A16InteractorOutputP", "errorOccured"]
+- !private ["13Advertisments0A16InteractorOutputP", "interactor"]
+- ["13Advertisments0A16InteractorOutputP", "loadNewAdvertisments"]
+- ["13Advertisments0A16InteractorOutputP", "numberOfAds"]
+- ["13Advertisments0A16InteractorOutputP", "output"]
+- ["13Advertisments0A16InteractorOutputP", ""]
+- ["13Advertisments0A9PresenterC", "Advertisment"]
 - ["13Advertisments0A9PresenterC", "AdvertismentsInteractorInput"]
-- ["13Advertisments0A9PresenterC", "T"]
+- ["13Advertisments0A9PresenterC", "AdvertismentsPresenterOutput"]
+- !private ["13Advertisments0A9PresenterC", "DispatchQueue"]
+- ["13Advertisments0A9PresenterC", "Error"]
+- ["13Advertisments0A9PresenterC", "Int"]
 - ["13Advertisments0A9PresenterC", "ads"]
+- ["13Advertisments0A9PresenterC", "adsDidLoad"]
 - ["13Advertisments0A9PresenterC", "deinit"]
+- ["13Advertisments0A9PresenterC", "errorOccured"]
 - ["13Advertisments0A9PresenterC", "init"]
-- ["13Advertisments0A9PresenterC", "interactor"]
+- !private ["13Advertisments0A9PresenterC", "interactor"]
 - ["13Advertisments0A9PresenterC", "loadNewAdvertisments"]
-- ["13Advertisments0A14PresenterInputP", "ads"]
+- ["13Advertisments0A9PresenterC", "numberOfAds"]
+- ["13Advertisments0A9PresenterC", "output"]
+- !private ["13Advertisments0A14PresenterInputP", "DispatchQueue"]
+- !private ["13Advertisments0A14PresenterInputP", "ads"]
+- ["13Advertisments0A14PresenterInputP", "adsDidLoad"]
+- ["13Advertisments0A14PresenterInputP", "errorOccured"]
 - !private ["13Advertisments0A14PresenterInputP", "interactor"]
 - ["13Advertisments0A14PresenterInputP", "loadNewAdvertisments"]
+- ["13Advertisments0A14PresenterInputP", "numberOfAds"]
+- ["13Advertisments0A14PresenterInputP", "output"]
 - ["13Advertisments0A14PresenterInputP", ""]
+- !private ["13Advertisments0A15PresenterOutputP", "ads"]
+- !private ["13Advertisments0A15PresenterOutputP", "presentError"]
+- !private ["13Advertisments0A15PresenterOutputP", "reload"]
+- !private ["13Advertisments0A15PresenterOutputP", "startLoadingIndicator"]
+- !private ["13Advertisments0A15PresenterOutputP", "stopLoadingIndicator"]
+- !private ["Sa", "append"]
+- !private ["s23BidirectionalCollectionP", "append"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s10CollectionP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s9DecodableP", "append"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["s9EncodableP", "append"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "main"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "main"]
+- !private ["s17MutableCollectionP", "append"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["s22RandomAccessCollectionP", "append"]
+- !private ["s26RangeReplaceableCollectionP", "append"]
+- !private ["s8SequenceP", "append"]
+- !private ["s14_ArrayProtocolP", "append"]
+- !private ["s23_BidirectionalIndexableP", "append"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s10_IndexableP", "append"]
+- !private ["s14_IndexableBaseP", "append"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["s17_MutableIndexableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s22_RandomAccessIndexableP", "append"]
+- !private ["s26_RangeReplaceableIndexableP", "append"]
 depends-nominal:
+- !private "13Advertisments0A15InteractorInputP"
+- "13Advertisments0A16InteractorOutputP"
 - "13Advertisments0A9PresenterC"
 - "13Advertisments0A14PresenterInputP"
+- !private "13Advertisments0A15PresenterOutputP"
+- !private "Sa"
+- !private "s23BidirectionalCollectionP"
+- !private "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "s9EncodableP"
+- !private "s9EquatableP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s8HashableP"
+- !private "s17MutableCollectionP"
+- !private "So8NSObjectC"
+- !private "So16NSObjectProtocolP"
+- !private "So9OS_objectC"
+- !private "s22RandomAccessCollectionP"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "s14_ArrayProtocolP"
+- !private "s23_BidirectionalIndexableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s17_MutableIndexableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s22_RandomAccessIndexableP"
+- !private "s26_RangeReplaceableIndexableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
@@ -41,4 +158,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
-interface-hash: "c11261caa35f2d2b6a4a805f18b702db"
+interface-hash: "932b974111064674de47153fd5167c53"

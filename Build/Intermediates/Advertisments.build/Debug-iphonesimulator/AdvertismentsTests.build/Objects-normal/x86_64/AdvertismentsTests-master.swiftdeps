@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "aba7ace708d3965ade3d0e51c5613209"
+build_time: [1517870710, 550311000]
+inputs:
+  "/Users/mwaly/Downloads/Ads/Advertisments/Advertisments /Entity/AdvertismentsDataManagerTests.swift": [1517870710, 0]
