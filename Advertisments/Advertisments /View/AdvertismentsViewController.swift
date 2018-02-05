@@ -46,7 +46,7 @@ extension AdvertismentsViewController: AdvertismentsPresenterOutput {
     }
 
     func stopLoadingIndicator() {
-        loadingLabel.text = "All Good, Scroll Down to load more items"
+        loadingLabel.text = "All Good Now"
         activityIndicator.stopAnimating()
     }
 
