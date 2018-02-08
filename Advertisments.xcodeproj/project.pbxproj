@@ -13,7 +13,7 @@
 		CA2CBFAD202500FF005F16CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2CBFAC202500FF005F16CD /* Main.storyboard */; };
 		CA2CBFAF202502AF005F16CD /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2CBFAE202502AF005F16CD /* RequestBuilder.swift */; };
 		CA2CBFB120250313005F16CD /* NetworkServiceConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2CBFB020250313005F16CD /* NetworkServiceConfigurator.swift */; };
-		CA2CBFB320252806005F16CD /* AdvertisementUICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2CBFB220252806005F16CD /* AdvertisementUICollectionViewCell.swift */; };
+		CA2CBFB320252806005F16CD /* AdvertisementCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2CBFB220252806005F16CD /* AdvertisementCollectionViewCell.swift */; };
 		CA2CBFB62025D647005F16CD /* AdvertismentsDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2CBFB52025D647005F16CD /* AdvertismentsDataManager.swift */; };
 		CA2CBFB9202665B2005F16CD /* AdvertisementResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = CA2CBFB8202665B2005F16CD /* AdvertisementResponse.json */; };
 		CA2CBFBD202725AE005F16CD /* ImageAsyncExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2CBFBC202725AE005F16CD /* ImageAsyncExtension.swift */; };
@@ -49,7 +49,7 @@
 		CA2CBFAC202500FF005F16CD /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CA2CBFAE202502AF005F16CD /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
 		CA2CBFB020250313005F16CD /* NetworkServiceConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServiceConfigurator.swift; sourceTree = "<group>"; };
-		CA2CBFB220252806005F16CD /* AdvertisementUICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementUICollectionViewCell.swift; sourceTree = "<group>"; };
+		CA2CBFB220252806005F16CD /* AdvertisementCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementCollectionViewCell.swift; sourceTree = "<group>"; };
 		CA2CBFB52025D647005F16CD /* AdvertismentsDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertismentsDataManager.swift; sourceTree = "<group>"; };
 		CA2CBFB8202665B2005F16CD /* AdvertisementResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AdvertisementResponse.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.javascript; };
 		CA2CBFBC202725AE005F16CD /* ImageAsyncExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAsyncExtension.swift; sourceTree = "<group>"; };
@@ -187,7 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				CA8E1BB62021D4E300E0632A /* AdvertismentsViewController.swift */,
-				CA2CBFB220252806005F16CD /* AdvertisementUICollectionViewCell.swift */,
+				CA2CBFB220252806005F16CD /* AdvertisementCollectionViewCell.swift */,
 				CA7C21BD2027A34D0049D721 /* AdvertismentsCollectionViewDataSource.swift */,
 			);
 			path = View;
@@ -216,7 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				CAF562CC20230ABE0086C63C /* Networking Services */,
-				CAD0694220227D57004781CD /* UI */,
+				CAD0694220227D57004781CD /* Root UI */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -229,13 +229,13 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		CAD0694220227D57004781CD /* UI */ = {
+		CAD0694220227D57004781CD /* Root UI */ = {
 			isa = PBXGroup;
 			children = (
 				CAD0694420227D6D004781CD /* Launch Screen.storyboard */,
 				CA2CBFAC202500FF005F16CD /* Main.storyboard */,
 			);
-			path = UI;
+			path = "Root UI";
 			sourceTree = "<group>";
 		};
 		CAF562CC20230ABE0086C63C /* Networking Services */ = {
@@ -356,7 +356,7 @@
 			files = (
 				CA8E1BBF2021D55700E0632A /* AdvertismentsPresenter.swift in Sources */,
 				CA8E1BB92021D50A00E0632A /* AdvertismentsWireframe.swift in Sources */,
-				CA2CBFB320252806005F16CD /* AdvertisementUICollectionViewCell.swift in Sources */,
+				CA2CBFB320252806005F16CD /* AdvertisementCollectionViewCell.swift in Sources */,
 				CA2CBFAB2024EF3E005F16CD /* AdvertisementDTO.swift in Sources */,
 				CA2CBFA72024EF0D005F16CD /* PhotoDTO.swift in Sources */,
 				CA8E1BB72021D4E300E0632A /* AdvertismentsViewController.swift in Sources */,

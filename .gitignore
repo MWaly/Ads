@@ -1,0 +1,6 @@
+.DS_Store
+
+# Ignore index config.
+/.Index
+/Build
+/Index
